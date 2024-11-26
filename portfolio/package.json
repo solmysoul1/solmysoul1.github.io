@@ -1,15 +1,15 @@
 {
-  "homepage": "https://solmysoul1.github.io/portfolio",
+  "homepage": "https://solmysoul1.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "export": "next export",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
